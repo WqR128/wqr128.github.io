@@ -72,7 +72,7 @@ function give() {
     document.querySelector('#encoded').value = ``;
 
     getForms()
-    document.querySelector('#encoded').value = encode(css);
+    document.querySelector('#encoded').value = '?css='+encode(css);
     document.querySelector('#encoded').select();
     document.execCommand("copy");
 }
