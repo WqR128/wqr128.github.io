@@ -51,7 +51,7 @@
         document.querySelector('#encoded').value = ``;
 
         getForms()
-        document.querySelector('#encoded').value = encode(currency);
+        document.querySelector('#encoded').value = '?currency=' + encode(currency);
         document.querySelector('#encoded').select();
         document.execCommand("copy");
     }
