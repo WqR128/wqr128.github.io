@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OBS | CSS Tool</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="head">CSS Tool</h1>
+        <div class="preview">
+            <h1 id="preview">00:00:00</h1>
+        </div>
+
+
+        <samp class="encoded">
+            <input id="encoded" type="text" />
+            <button onclick="give()">give me settings </button>
+        </samp>
+    </header>
+    <div class="wrap css_tool">
+
+        <label for="size">Font size</label>
+        <input id="size" name="size" type="range" min="50" max="200" step="1" value="120" onChange="sizeSet();">
+
+        <label for="color">Color</label>
+        <input id="color" value="rgba(255,255,255,1)" data-jscolor="{preset:'small dark'}" onChange="colorSet();">
+
+
+        <label for="font-selector">Font</label>
+        <select id="font-selector" onChange="fontSet();">
+        
+        </select>
+
+    </div>
+    <footer>
+        Created by <a href="https://wqr128.github.io/">WqR128</a>
+    </footer>
+    <a href="../" id="back">back</a>
+    <script src="./app.js"></script>
+    <script src="./jscolor.min.js"></script>
+    !-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JRV20G09F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3JRV20G09F');
+    </script>
+</body>
+
+</html>

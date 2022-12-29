@@ -1,0 +1,14 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 120px;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 10px #141414
+}

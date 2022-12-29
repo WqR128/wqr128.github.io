@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OBS | Timer Manual</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="head">Timer Manual</h1>
+        <p>Link to overlay </p> <samp class="dark">https://wqr128.github.io/timer/widget</samp>
+    </header>
+
+    <div class="wrap">
+        <div class="tabs_container">
+            <div class="tab-navbar">
+                <input id="tab1" type="radio" name="tabs" hidden checked>
+                <input id="tab2" type="radio" name="tabs" hidden>
+                <input id="tab3" type="radio" name="tabs" hidden>
+                <input id="tab4" type="radio" name="tabs" hidden>
+                <nav>
+                    <label for="tab1">1</label>
+                    <label for="tab2">2</label>
+                    <label for="tab3">3</label>
+                    <label for="tab4">4</label>
+                </nav>
+                <main>
+                    <ul>
+                        <li>add to OBS</li>
+                        <li>set token donationalerts</li>
+                        <li>set the time</li>
+                        <li>after applying, clean the parameters to avoid bugs</li>
+                    </ul>
+                </main>
+            </div>
+        </div>
+        <div class="frame">
+            <div class="bit-2 norm">
+                <h1>set token donationalerts </h1>
+            </div>
+            <div class="bit-2 code">
+                ?token=
+            </div>
+        </div>
+        <div class="frame">
+            <div class="bit-2 norm">
+                <h1>set time hh:mm:ss or hh:mm or mm</h1>
+            </div>
+            <div class="bit-2 code">?set=00:00:00</div>
+        </div>
+        <div class="frame">
+            <div class="bit-2 norm">
+                <h1>reset timer</h1>
+            </div>
+            <div class="bit-2 code">
+                ?reset
+            </div>
+        </div>
+
+        <div class="frame">
+            <div class="bit-2 norm">
+                <h1>reset all settings (clear all localStorage)</h1>
+            </div>
+            <div class="bit-2 code">
+                ?reset=all
+            </div>
+        </div>
+
+
+        <div class="frame">
+            <div class="bit-2 norm">
+                <h1>edit currency price (use<a href="./currencyTool"> this tool</a>) </h1>
+            </div>
+            <div class="bit-2 code">
+                ?currency=
+            </div>
+        </div>
+
+
+        <div class="frame">
+            <div class="bit-2 norm">
+                <h1>edit style (use<a href="./cssTool"> this tool</a>) </h1>
+            </div>
+            <div class="bit-2 code">
+                ?css=
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        Created by <a href="https://wqr128.github.io/">WqR128</a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
