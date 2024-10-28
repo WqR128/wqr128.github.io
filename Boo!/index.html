@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OBS | BOO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="obs-width" content="500">
+    <meta name="obs-height" content="500">
+    <meta name="obs-fps" content="60">
+    <meta name="obs-shutdown" content="true">
+    <meta name="obs-refresh" content="false">
+    <meta name="obs-browser" content="width=500,height=500,fps=30,shutdown=true,refresh=false">
+    <script src="./assets/js/socket.io.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1 id="txt"></h1>
+        <div id="ghost" class="ghost ">
+
+            <div class="ghost__border">
+                <div class="ghost__top">
+                    <div class="ghost__top__face">
+                        <div class="ghost__eyes"></div>
+                        <div class="ghost__blush"> </div>
+                        <div class="ghost__mouth"></div>
+                    </div>
+                    <div class="ghost__top__boo">
+                        <div class="ghost__boo ghost__boo-1">B</div>
+                        <div class="ghost__boo ghost__boo-2">O</div>
+                        <div class="ghost__boo ghost__boo-3">O</div>
+                        <div class="ghost__boo ghost__boo-4">! </div>
+                    </div>
+                    <div class="ghost__top__body">
+                        <div class="ghost__hand ghost__hand--left"> </div>
+                        <div class="ghost__hand ghost__hand--right"></div>
+                    </div>
+                </div>
+                <div class="ghost__bottom">
+                    <div class="ghost__bottom__rip ghost__bottom__rip--1"></div>
+                    <div class="ghost__bottom__rip ghost__bottom__rip--2"></div>
+                    <div class="ghost__bottom__rip ghost__bottom__rip--3"></div>
+                    <div class="ghost__bottom__rip ghost__bottom__rip--4"></div>
+                    <div class="ghost__bottom__rip ghost__bottom__rip--5"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="tomb">
+            <h1>Boo!</h1>
+            <h2><samp>66</samp>руб</h2>
+            <svg width="35" height="85" xmlns="http://www.w3.org/2000/svg">
+                <polygon id="svg_1"
+                    points="11.6300048828125,0.720001220703125 11.6300048828125,18.720001220703125 2.1400146484375,42.720001220703125 11.6300048828125,61.38999938964844 11.6300048828125,82.72000122070312 18.29998779296875,62.05000305175781 10.220001220703125,41.720001220703125 22.29998779296875,41.720001220703125 28.970001220703125,60.05000305175781 32.970001220703125,35.38999938964844 20,26.75 22.29998779296875,17.389999389648438 22.8699951171875,-1.6699981689453125 11.6300048828125,0.720001220703125 " />
+            </svg>
+        </div>
+
+        <script src="./assets/js/app.js"></script>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+@import 'tomb.css';
+@import 'ghost.css';
+
+@font-face {
+    font-family: "Creepy";
+    src: url("../fonts/Creepy.woff") format("woff"), url("../Creepy.woff2") format("woff2")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-black: #1B1B1B;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    min-height: 100vh;
+}
+
+main {
+    width: 24rem;
+    height: 22rem;
+}
+
+#txt {
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    top: 300px;
+    right: 329px;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    font-weight: 800;
+    color: #f1f1f1;
+    text-shadow: 0px 1px 0px #2d3436;
+    height: 50px;
+    min-width: 300px;
+    text-align: right;
+}
